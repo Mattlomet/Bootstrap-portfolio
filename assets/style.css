@@ -6,8 +6,9 @@ body {
     background: url("../assets/leaves-pattern.png");
 }
 .padding-for-nav{
-    padding-left: 20%;
+    padding-left: 19%;
     padding-right: 20%;
+    margin-bottom: 2.5%;
 }
 #logo {
     width: 250px;
@@ -23,6 +24,7 @@ body {
     
 }
 nav a {
+    margin-left: 25px;
     line-height: 18px;
     color: #999;
     text-decoration: none;
@@ -60,4 +62,10 @@ h1{
     margin: 0 0 40px;
     background: #fff;
     border: 1px solid #ddd;
+}
+.green-button{
+    color: #fff;
+    cursor: pointer;
+    background: #4aaaa5;
+    border: 0 none;
 }
